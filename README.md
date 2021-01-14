@@ -187,3 +187,21 @@ if (oah_is_current_process_translated()) {
 //        }
 ```
 
+
+
+# 编译调试
+
+- 新建一个 `Target` : **objc-debug**
+
+[![img](http://blog.guohuaden.com/objc-debug-target.png
+
+![img](http://blog.guohuaden.com/objc-debug-target.png)
+
+- 绑定二进制依赖关系
+
+![依赖关系](http://blog.guohuaden.com/objc-debug-dependencies.png)
+
+- 运行代码进入源码
+
+![runtime调试](http://blog.guohuaden.com/runtime%E8%B0%83%E8%AF%95.png)
+
